@@ -7,6 +7,18 @@
     <groupId>com.arrays</groupId>
     <artifactId>partitionsArray</artifactId>
     <version>1.0</version>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+    </properties>
+
+    <scm>
+        <connection>scm:git:https://github.com/lfeniri/PartitionArrays.git</connection>
+        <developerConnection>scm:git:https://github.com/lfeniri/PartitionArrays.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/lfeniri/PartitionArrays.git</url>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -15,6 +27,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
