@@ -18,13 +18,14 @@ Use "mvn clena install" to buil the jar file.
 
 ### Package
 Add this dependency in your projec: 
-    <dependency>
+```xml
+<dependency>
         <groupId>com.arrays</groupId>
         <artifactId>partitionsArray</artifactId>
         <version>1.0</version> 
     </dependency>
-
-Optional: Add <systemPath></systemPath> to specify the lib jar file path. 
+```
+Optional: Add the systemPath balise in dependency to specify the lib jar file path. 
 
 
 ## Authors
