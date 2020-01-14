@@ -19,7 +19,7 @@ Use "mvn clena install" to buil the jar file.
 ### Package
 Add this dependency in your projec: 
 ```xml
-<dependency>
+    <dependency>
         <groupId>com.arrays</groupId>
         <artifactId>partitionsArray</artifactId>
         <version>1.0</version> 
@@ -30,4 +30,4 @@ Optional: Add the systemPath balise in dependency to specify the lib jar file pa
 
 ## Authors
 
-* **Lounes FENIRI** - *Initial work* - [PurpleBooth](https://github.com/lfeniri)
+* **Lounes FENIRI** - *Initial work* - [lfeniri](https://github.com/lfeniri)
